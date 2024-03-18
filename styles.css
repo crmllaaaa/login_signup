@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background-color: #fff;
+  width: 400px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+form {
+  width: 100%;
+}
+
+form h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 15px;
+  margin: 20px 0;
+  border: none;
+  background-color: #ffb7ce;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ff8aaf;
+}
+
+.sign-up-link,
+.sign-in-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.sign-up-link a,
+.sign-in-link a {
+  color: #ffb7ce;
+  text-decoration: none;
+}
+
+.sign-up-link a:hover,
+.sign-in-link a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
